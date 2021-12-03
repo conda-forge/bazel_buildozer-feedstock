@@ -11,7 +11,7 @@ Summary: Buildozer is a command line tool to rewrite multiple Bazel BUILD files 
 
 Development: https://github.com/bazelbuild/buildtools
 
-Documentation: https://github.com/bazelbuild/buildtools/blob/4.0.1/buildozer/README.md
+Documentation: https://github.com/bazelbuild/buildtools/blob/4.2.4/buildozer/README.md
 
 Current build status
 ====================
@@ -73,6 +73,7 @@ Installing `bazel_buildozer` from the `conda-forge` channel can be achieved by a
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `bazel_buildozer` can be installed with:
@@ -91,7 +92,8 @@ conda search bazel_buildozer --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
