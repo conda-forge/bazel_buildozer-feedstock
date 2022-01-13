@@ -11,7 +11,7 @@ Summary: Buildozer is a command line tool to rewrite multiple Bazel BUILD files 
 
 Development: https://github.com/bazelbuild/buildtools
 
-Documentation: https://github.com/bazelbuild/buildtools/blob/4.2.4/buildozer/README.md
+Documentation: https://github.com/bazelbuild/buildtools/blob/4.2.5/buildozer/README.md
 
 Current build status
 ====================
