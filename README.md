@@ -1,17 +1,17 @@
-About bazel_buildozer
-=====================
+About bazel_buildozer-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bazel_buildozer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/bazelbuild/buildtools
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bazel_buildozer-feedstock/blob/main/LICENSE.txt)
-
 Summary: Buildozer is a command line tool to rewrite multiple Bazel BUILD files using standard commands.
 
 Development: https://github.com/bazelbuild/buildtools
 
-Documentation: https://github.com/bazelbuild/buildtools/blob/6.0.0/buildozer/README.md
+Documentation: https://github.com/bazelbuild/buildtools/blob/6.1.2/buildozer/README.md
 
 Current build status
 ====================
