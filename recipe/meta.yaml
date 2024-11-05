@@ -1,5 +1,5 @@
 {% set name = "bazel_buildozer" %}
-{% set version = "6.0.0" %}
+{% set version = "6.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/bazelbuild/buildtools/archive/{{ version }}.tar.gz
-  sha256: 05eff86c1d444dde18d55ac890f766bce5e4db56c180ee86b5aacd6704a5feb9
+  sha256: 76f96aa30635b0566bee078aeff822ec6220f3801c69b9f16f689cd7da901ec8
   folder: src/github.com/bazelbuild/buildtools
 
 build:
