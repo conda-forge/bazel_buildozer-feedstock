@@ -1,13 +1,13 @@
 {% set name = "bazel_buildozer" %}
-{% set version = "6.0.0" %}
+{% set version = "8.5.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/bazelbuild/buildtools/archive/{{ version }}.tar.gz
-  sha256: 05eff86c1d444dde18d55ac890f766bce5e4db56c180ee86b5aacd6704a5feb9
+  url: https://github.com/bazelbuild/buildtools/archive/v{{ version }}.tar.gz
+  sha256: f3b800e9f6ca60bdef3709440f393348f7c18a29f30814288a7326285c80aab9
   folder: src/github.com/bazelbuild/buildtools
 
 build:
@@ -15,7 +15,7 @@ build:
 
 requirements:
   build:
-    - {{ compiler('go') }} >=1.12
+    - {{ compiler('go') }} >=1.20
 
 test:
   commands:
@@ -33,3 +33,4 @@ about:
 extra:
   recipe-maintainers:
     - asford
+    - rymndhng
